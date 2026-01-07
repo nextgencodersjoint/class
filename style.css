@@ -59,25 +59,33 @@ header h1 {
 }
 
 .hero p {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
     margin-bottom: 20px;
 }
 
-/* Button */
+/* Buttons */
 .btn {
     background: #ff9800;
     color: #000;
-    padding: 10px 24px;
+    padding: 10px 26px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    border: none;
-    cursor: pointer;
+    display: inline-block;
 }
 
 .btn:hover {
     background: #ffc107;
+}
+
+.secondary-btn {
+    background: #1e88e5;
+    color: white;
+}
+
+.secondary-btn:hover {
+    background: #42a5f5;
 }
 
 /* Sections */
@@ -99,13 +107,13 @@ header h1 {
     margin: auto;
 }
 
-/* Light background */
+/* Light section */
 .light {
     background: white;
     border-radius: 10px;
 }
 
-/* List */
+/* Lists */
 ul {
     list-style: none;
     max-width: 650px;
@@ -145,7 +153,7 @@ footer {
     font-size: 13px;
 }
 
-/* WhatsApp Button */
+/* WhatsApp */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -157,37 +165,4 @@ footer {
     border-radius: 50%;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-/* Popup */
-.popup {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.popup-content {
-    background: white;
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    border-radius: 12px;
-    position: relative;
-}
-
-.popup-content h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 22px;
-    cursor: pointer;
 }
